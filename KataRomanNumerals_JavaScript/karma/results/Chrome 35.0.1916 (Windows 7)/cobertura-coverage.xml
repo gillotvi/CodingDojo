@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="0"  lines-covered="0"  line-rate="1"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1406210953062" complexity="0" version="0.1">
+<sources>
+	<source>V:\Vincent\Mes_HowTo\Dojo\TU\KATA\KataRomanNumerals\karma</source>
+</sources>
+<packages>
+	<package name="..KataRomanNumerals.app"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="main.js"  filename="KataRomanNumerals\app\main.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>

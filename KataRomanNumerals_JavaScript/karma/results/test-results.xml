@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Chrome 35.0.1916 (Windows 7)" package="" timestamp="2014-07-24T14:09:12" id="0" hostname="UC399905">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Chrome 35.0.1916 (Windows 7)" package="" timestamp="2014-07-24T14:09:13" id="0" hostname="UC399905" tests="9" errors="0" failures="3" time="0.015">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"/>
+    </properties>
+    <testcase name="should be KO when equals alphabetic inputs" time="0.009" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests"/>
+    <testcase name="should be KO when equals 0" time="0.001" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests"/>
+    <testcase name="should be KO when higher than 3999" time="0" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests"/>
+    <testcase name="should return &apos;II&apos; when enter &apos;2&apos;" time="0.001" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests"/>
+    <testcase name="should return &apos;IV&apos; when enter &apos;4&apos;" time="0.002" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests">
+      <failure type="">Expected &apos;IIII&apos; to equal &apos;IV&apos;.
+Error: Expected &apos;IIII&apos; to equal &apos;IV&apos;.
+    at null.&lt;anonymous&gt; (V:/Vincent/Mes_HowTo/Dojo/TU/KATA/KataRomanNumerals/app/tests/unit/main-test.js:73:50)
+</failure>
+    </testcase>
+    <testcase name="should return &apos;V&apos; when enter &apos;5&apos;" time="0" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests"/>
+    <testcase name="should return &apos;X&apos; when enter &apos;10&apos;" time="0" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests"/>
+    <testcase name="should return &apos;MCMXCIX&apos; when enter &apos;1999&apos;" time="0.001" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests">
+      <failure type="">Expected &apos;MDCCCCLXXXXVIIII&apos; to equal &apos;MCMXCIX&apos;.
+Error: Expected &apos;MDCCCCLXXXXVIIII&apos; to equal &apos;MCMXCIX&apos;.
+    at null.&lt;anonymous&gt; (V:/Vincent/Mes_HowTo/Dojo/TU/KATA/KataRomanNumerals/app/tests/unit/main-test.js:85:53)
+</failure>
+    </testcase>
+    <testcase name="should return &apos;MMMCMXCIX&apos; when enter &apos;3999&apos;" time="0.001" classname="Chrome 35.0.1916 (Windows 7).kataRomanNumeralsTests">
+      <failure type="">Error: The Romans themselves didn&apos;t tend to go any higher
+    at convertNumberToRomanNumeral (V:/Vincent/Mes_HowTo/Dojo/TU/KATA/KataRomanNumerals/app/tests/unit/main-test.js:20:28)
+    at null.&lt;anonymous&gt; (V:/Vincent/Mes_HowTo/Dojo/TU/KATA/KataRomanNumerals/app/tests/unit/main-test.js:89:16)
+</failure>
+    </testcase>
+    <system-out><![CDATA[Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 2'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 4'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 1'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 1'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 0'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 1'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 1'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 4'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 1'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 4'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 1'
+,Chrome 35.0.1916 (Windows 7) LOG: 'integerPart : 4'
+
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
